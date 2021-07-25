@@ -1,19 +1,22 @@
 package javabystriystart.HF01strategy;
 public class Duck {
-    public void quack(){
-        System.out.println("quack-quack");
+    FlyBehavior flyBehavior;
+    QuackBehavior quackBehavior;
+    
+    public void performQuack() {
+        quackBehavior.quack();
+    }
+    public void performFly() {
+        flyBehavior.fly();
     }
     public void swim(){
         System.out.println("swiming");
-    }
-    public void fly(){
-        System.out.println("flying");
     }
     public void display() {
         System.out.println("..Duck..");
     }    
     public void functions() {
-        quack(); swim(); fly();display();
+        quackBehavior.quack(); swim(); flyBehavior.fly(); display();
         System.out.println("");
     }
 }
