@@ -2,7 +2,8 @@ package javabystriystart;
 
 public class LambdaDemo {
 
-    public void start() {
+    public static void start() {
+        System.out.println("-------------- LambdaDemo start -----------------");
         MyNumber num1;
         num1 = () -> 12.3;
         System.out.println("The 'num1' value is " + num1.getValue());
@@ -31,6 +32,7 @@ public class LambdaDemo {
         };
         System.out.println("The 'num2' value is " + num2.getValue2(3, 9));
         //System.out.println("The value is " +num2.getValue2(3, 9.1));
+        System.out.println("-------------- LambdaDemo finish -----------------");
     }
 }
 

@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileHandlingDemo {
 
-    public void start() {
+    public static void start() {
         String line;
 /*        BufferedReader reader = null;
 
@@ -12,6 +12,7 @@ public class FileHandlingDemo {
             reader = new BufferedReader(new FileReader("myFile.txt"));*/
 //BufferedReader должен знать, какой поток данных нужно буферизовать
 //Java>=7 «try с ресурсами» - автозакрывает объект BufferedReader
+System.out.println("------------FileHandlingDemo start----------------");
 try (BufferedReader reader = new BufferedReader(new FileReader("myFile.txt"))){
             line = reader.readLine();
             while (line != null) {
@@ -37,6 +38,6 @@ try (BufferedReader reader = new BufferedReader(new FileReader("myFile.txt"))){
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
+System.out.println("------------FileHandlingDemo finish----------------");
     }
 }

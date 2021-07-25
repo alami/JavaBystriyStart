@@ -6,7 +6,13 @@ import java.util.LinkedList;
 import java.io.*;
 
 public class JavaBystriyStart {
-    public static void main(String[] args) {
+    public static void main(String[] args) {     
+        start();
+        FileHandlingDemo.start();                
+        LambdaDemo.start();
+        
+    }
+    public static void start() {
 //,50        4.1.1. String
 // String входит в пакет java.lang, который импортируется по умолчанию
         String fullSubstring = "Java: Bystriy Start";
@@ -27,10 +33,7 @@ public class JavaBystriyStart {
 //   когда вы обновляете переменную String, на самом деле вы создаете новую строку
 //   и присваиваете ее адрес в памяти переменной String.
 //  старая со временем уничтожена уборкой мусора,
-System.out.println("------------FileHandlingDemo start----------------");
-FileHandlingDemo fh = new FileHandlingDemo();
-fh.start();
-System.out.println("------------FileHandlingDemo finish----------------");
+
 /*Scanner input = new Scanner(System.in);
 int myInt;
 System.out.printf("Pls,input int: ");
@@ -101,10 +104,6 @@ g3.setMyVar(6.);    g3.printValue();
 MyNumber num1;
 MyNumberPara num2;
 //2)присваивать им лямбда-выражения.
-System.out.println("-------------- LambdaDemo start -----------------");
-LambdaDemo lambdaDemo = new LambdaDemo();
-lambdaDemo.start();
-System.out.println("-------------- LambdaDemo finish -----------------");
    }
 }
 
