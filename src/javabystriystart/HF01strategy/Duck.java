@@ -19,4 +19,10 @@ public class Duck {
         quackBehavior.quack(); swim(); flyBehavior.fly(); display();
         System.out.println("");
     }
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
 }

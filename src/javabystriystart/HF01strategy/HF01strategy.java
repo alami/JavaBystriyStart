@@ -14,6 +14,9 @@ public class HF01strategy {
 поведение предоставлялось НЕ конкретной реализацией в суперклассе Duck,
 а отдельным интерфейсом [классом] поведения, не привязанном к субклассу Duck.
 */
+        Duck model = new ModelDuck();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.functions();
     }
 
 }
