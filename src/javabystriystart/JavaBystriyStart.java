@@ -1,4 +1,5 @@
 package javabystriystart;
+import javabystriystart.HF01strategy.HF01strategy;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -7,10 +8,10 @@ import java.io.*;
 
 public class JavaBystriyStart {
     public static void main(String[] args) {     
-        start();
-        FileHandlingDemo.start();                
-        LambdaDemo.start();
-        
+//        start();
+//        FileHandlingDemo.start();                
+//        LambdaDemo.start();
+        HF01strategy.start();
     }
     public static void start() {
 //,50        4.1.1. String
