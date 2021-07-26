@@ -18,5 +18,7 @@ public class HF01strategy {
         model.setFlyBehavior(new FlyRocketPowered());
         model.functions();
     }
-
+/*,59  Отношения СОДЕРЖИТ (HAS-A) бывают удобнее отношений ЯВЛЯЕТСЯ (IS-A)
+    
+    */
 }
