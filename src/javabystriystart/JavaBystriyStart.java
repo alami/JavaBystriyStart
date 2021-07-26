@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.io.*;
 import javabystriystart.HF01strategy.HF01strategy;
 import javabystriystart.HF02observer.HF02observer;
+import javabystriystart.HF02observerLibrary.HF02observerLibrary;
 
 public class JavaBystriyStart {
     public static void main(String[] args) {     
@@ -13,8 +14,10 @@ public class JavaBystriyStart {
 //        FileHandlingDemo.start();                
 //        LambdaDemo.start();
 //        HF01strategy.start();
-        HF02observer.start();        
+//        HF02observer.start();        
+        HF02observerLibrary.start();        
     }
+//--------------------------------------------------------------------    
     public static void start() {
 //,50        4.1.1. String
 // String входит в пакет java.lang, который импортируется по умолчанию
