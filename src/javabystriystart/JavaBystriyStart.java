@@ -7,6 +7,8 @@ import java.io.*;
 import javabystriystart.HF01strategy.HF01strategy;
 import javabystriystart.HF02observer.HF02observer;
 import javabystriystart.HF02observerLibrary.HF02observerLibrary;
+import javabystriystart.HF03decorator.HF03decorator;
+import javabystriystart.HF03decoFiles.InputTest;
 
 public class JavaBystriyStart {
     public static void main(String[] args) {     
@@ -15,7 +17,9 @@ public class JavaBystriyStart {
 //        LambdaDemo.start();
 //        HF01strategy.start();
 //        HF02observer.start();        
-        HF02observerLibrary.start();        
+//        HF02observerLibrary.start();
+//        HF03decorator.start(); 
+          
     }
 //--------------------------------------------------------------------    
     public static void start() {
